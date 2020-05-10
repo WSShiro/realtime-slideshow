@@ -10,7 +10,7 @@ Realtime photo slideshow with [Swiper.js](http://idangero.us/swiper/) and [Dropb
 
 
 ## Example
-<img src=https://github.com/WSShiro/realtime-slideshow/blob/master/example/example1.gif width=70%>
+<img src=https://github.com/WSShiro/realtime-slideshow/blob/master/example/example2.gif width=70%>
 Here Mr. John Smith posted 2 photos and, a few seconds later, he posted 3 photos additionally.  
 
 
