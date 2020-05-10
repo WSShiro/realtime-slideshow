@@ -6,6 +6,7 @@ Realtime photo slideshow with [Swiper.js](http://idangero.us/swiper/) and [Dropb
 - [Example](#example)
 - [Usage](#usage)
 - [Prior Art](#prior-art)
+- [License](#license)
 
 
 ## Example
@@ -35,3 +36,6 @@ For Chrome, boot option " --args --allow-file-access-from-files" may be needed.
 Many thanks to [knight_photo_contest](https://github.com/ktkiyoshi/knight_photo_contest) giving me my starting point.
 Also thanks to [Python Exif Modification](https://kapibara-sos.net/archives/658) and [tree-json](https://github.com/acro5piano/tree-json).
 
+
+## License
+This software is released under the [MIT lincese](https://github.com/WSShiro/realtime-slideshow/blob/master/LICENSE).

@@ -1,4 +1,14 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+# start.py
+# Copyright (c) 2020 WSShiro
+# realtime-slideshow | MIT license | https://github.com/WSShiro/realtime-slideshow/blob/master/LICENSE
+# 
+# The json_tree_image function is a modification of tree-json (Copyright (c) 2016 å‹èäòaç∆).
+# The software is released under the MIT license. See https://github.com/acro5piano/tree-json/blob/master/LICENSE
+#
+
 
 import os
 import json
