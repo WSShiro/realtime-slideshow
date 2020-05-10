@@ -123,11 +123,11 @@ mySwiper2.on('slideChange', function () {
 document.onkeydown = function keydown() {
 	if(event.keyCode == 32){	// Spacekey
 		console.log(event.keyCode);
-		location.href = 'file:///D:/Dropbox/ForSuzuki/mySlideshow/titleimage/emergency.png'
+		location.href = 'file:titleimage/emergency.png'
 	}
 	else if(event.keyCode == 81){	// Q key
 		console.log(event.keyCode);
-		location.href = 'file:///D:/Dropbox/ForSuzuki/mySlideshow/titleimage/final.png'
+		location.href = 'file:titleimage/final.png'
 	}	
 };
 

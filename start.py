@@ -47,13 +47,12 @@ def json_tree_image(path):
 
 if __name__ == '__main__':
 
-    # Make the initial json
     path = os.getcwd()+'\DropboxPhoto'
-    list_new = json_tree_image(path)
-    print('{}'.format(json.dumps(list_new,indent=4, ensure_ascii=False, sort_keys=True, default=json_serial)))
+    # Print the initial json
+    #list_new = json_tree_image(path)
+    #print('{}'.format(json.dumps(list_new,indent=4, ensure_ascii=False, sort_keys=True, default=json_serial)))
     
     # Json update loop
-    count = 0;
     while True:
 ##        # Read the previous json
 ##        with codecs.open('image.json','r','utf-8') as f:
@@ -73,13 +72,9 @@ if __name__ == '__main__':
 ##            f.write(dump)
 
         # Remove exif info of image for standardize orientation
-        try :
-            exifmodify.remove_exif(path)
-        except Exception as e :
-            pass
+        exifmodify.remove_exif(path)
         
         time.sleep(2)
-        count = count +1
         print('Item Num: ',len(list_new))
 
 
