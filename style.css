@@ -1,0 +1,105 @@
+/*! 
+* style.css
+* 
+* realtime-slideshow | MIT lincese | https://github.com/WSShiro/realtime-slideshow/blob/master/LICENSE
+*/
+
+body {
+    background-color: black;
+	color: #ffffff;
+    height: 98vh; /*1080px;*/
+    width: 98%; /*1920px;*/
+	margin: 1vh auto;
+}
+
+.swiper1 {
+   width: 100%;
+   height: 80%;
+}
+
+.slide1 {
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background-color: black;
+}
+
+/* Style of the slide 2*n
+.slide1:nth-child(2n) {
+	background-color: black;
+}*/
+/* Style of the slide  2*n+1
+.slide1:nth-child(2n+1) {
+	background-color: grey;
+}*/
+
+.slide1 img{
+	max-height: 98%;
+	max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.slide1 p {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 10%;
+  margin: 0;
+  font-size: 40px;
+	line-height: 56px;
+  background: rgba( 200, 200, 200, 0.5 );
+  
+  padding: 10px;
+  }
+
+.swiper2{
+   width: 100%;
+   height: 20%;
+}
+/*.wrapper2{
+	margin-left: calc(-37.5% - 5px);
+  }*/
+.slide2 {
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 100%;
+	background-color: black;
+}
+
+/* Style of the current slide in 2nd Swiper*/
+.swiper2 .swiper-slide-active {
+	width: 95%;
+	height: 95%;
+	border-style: solid ;
+	border-width: 5px;
+	border-color: white;
+}
+
+/* Style of the slide 2*n
+.slide2:nth-child(2n) {
+	background-color: black;
+} */
+/* Style of the slide  2*n+1
+.slide2:nth-child(2n+1) {
+	background-color: grey;
+} */
+
+.slide2 img{
+	max-width: 100%;
+	max-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
